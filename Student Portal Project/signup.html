@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel = "Stylesheet" href="signupstyle.css">
+</head>
+<body>
+    <div id ="form_cont">
+        <h1 style="text-align:center;">Sign-up</h1>
+         <div style="height:0.5vh"> 
+        </div>
+              <form action = "signup.php" method = "post">
+                    <input type ="text"  placeholder="First Name"  id = "f_name" style="display :inline"name ="f_name">
+                    <input type ="text" placeholder="Middle Name" id = "m_name" style="display :inline" name="m_name">
+                    <input type ="text" placeholder="Last Name" id = "l_name" style="display :inline" name="l_name">
+                    <div style="height:15px;">
+                    
+                    </div>
+                    <input type = "Text" placeholder="Registration number" style ="width:200px" name ="RegistrationID">
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <input type ="text" placeholder="Email" id ="Mail" style="width:200px;" name ="Email">
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <input type ="text" placeholder="New Password" id ="Pass" style="width:200px;"name="Password">
+                    <div style="height:15px;"> 
+
+                    </div>
+                    
+                    <label style ="position: relative;right:44px;color: white;">Branch</label>
+                    <select name="Branch"  style ="position: relative;right:9px;color: rgb(22, 23, 23);">
+                        <option value="CSE CORE">CSE CORE</option>
+                        <option value="CSE AI">CSE AI</option>
+                        <option value="CSE CYBER">CSE CYBER</option>
+                        <option value="IT">IT</option>
+                        <option value="ECE">ECE</option> 
+                    </select>
+                    <div style="height:6px;"> 
+
+                    </div>
+                   
+                    <div style="height:6px;"> 
+
+                    </div>
+                    <input type ="text" placeholder="Phone number" id ="Phone" style ="width:200px" name="PhoneNo">
+                    <div style="height:6px;"> 
+    
+                    </div>
+                    <div>
+                        <input type ="submit" name="Submit">
+                        
+                    </div>
+                    
+             
+              </form>
+            
+         </div>
+</body>
+</html>
